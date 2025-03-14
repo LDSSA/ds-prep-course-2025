@@ -23,5 +23,3 @@ Although the app installation is recommended, if you don't wish to install **'Sl
 6. Finally, stay tuned in the [#announcements](https://ldsaprepcourse2025.slack.com/archives/C08F7QPD2LB) channel. **All the information you need about the course and its flow will be posted there**.
 
 See more tips for asking for help on [this wiki page](https://ldssa.github.io/wiki/DS%20Prep%20Course/Data-Science-Prep-Course/#how-to-ask-for-help).
-
-<!-- Fix Slack links -->

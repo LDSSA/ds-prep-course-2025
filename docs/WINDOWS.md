@@ -6,9 +6,9 @@ Your first step in this journey is to **carefully read** the steps in this tutor
 
 In this course we will be using **'WSL 2'**.
 
-**Step 1:** Follow **[this guide](docs/guides/WSL2_Installation_Guide_for_Windows_10.md#windows-subsystem-for-linux-installation-guide-for-windows-10)** to setup **'WSL 2'** on Windows 10/11.
+**Step 1:** Follow **[this guide](guides/WSL2_Installation_Guide_for_Windows_10.md#windows-subsystem-for-linux-installation-guide-for-windows-10)** to setup **'WSL 2'** on Windows 10/11.
 
-**<span id="step-2"></span>Step 2:** Open a terminal (remember **[this](docs/guides/WSL2_Installation_Guide_for_Windows_10.md#7-opening-the-wsl-terminal)**!) and run the following command. It will install **'Git'**. **'Git'** is a version control software that facilitates collaboration of people working together on the same code and keeps track of the versions as the code changes. You will learn more about **'Git'** in Week 02 of this course.
+**<span id="step-2"></span>Step 2:** Open a terminal (remember **[this](guides/WSL2_Installation_Guide_for_Windows_10.md#7-opening-the-wsl-terminal)**!) and run the following command. It will install **'Git'**. **'Git'** is a version control software that facilitates collaboration of people working together on the same code and keeps track of the versions as the code changes. You will learn more about **'Git'** in Week 02 of this course.
 
 ```bash
 sudo apt update && sudo apt upgrade && sudo apt install git
@@ -38,4 +38,4 @@ sudo apt update && sudo apt install python3.13 -y
 sudo apt update && sudo apt upgrade && sudo apt install python3-pip python3.13-venv -y
 ```
 
-And you're done! Go back to the main menu and continue with setting up Git and GitHub in [step 3](README.md#3-setup-git-and-gitHub_).
+And you're done! Go back to the main menu and continue with setting up Git and GitHub in [step 3](../README.md#3-setup-git-and-gitHub_).

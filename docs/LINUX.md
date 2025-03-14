@@ -14,7 +14,7 @@ So you're using **'Ubuntu'**, huh? Well, kudos to you. You just need to install 
 python3.13 --version
 ```
 
-**Step 1.1:** Run the following commands to setup **'Python 3.13'** (if you get an error with this command, check [this](troubleshooting.md#6-when-setting-up-python-38-i-get-an-error)). Add the `deadsnakes repository`:
+**Step 1.1:** Run the following commands to setup **'Python 3.13'** (if you get an error with this command, check [this](troubleshooting.md#5-when-setting-up-python-313-i-get-an-error)). Add the `deadsnakes repository`:
 
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
@@ -32,7 +32,7 @@ sudo apt update && sudo apt install python3.13 -y
 sudo apt update && sudo apt upgrade && sudo apt install python3-pip python3.13-venv -y
 ```
 
-And you're done! Go back to the main menu and continue with setting up Git and GitHub in [step 3](README.md#3-setup-git-and-gitHub).
+And you're done! Go back to the main menu and continue with setting up Git and GitHub in [step 3](../README.md#3-setup-git-and-gitHub).
 
 ### References
 

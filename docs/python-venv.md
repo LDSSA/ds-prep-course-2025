@@ -43,4 +43,4 @@ cd ~/projects/ds-prep-workspace
 pip install -r requirements.txt
 ```
 
-Congratulations! You are now all set up and you can continue to the last step in the main menu - step 5, testing the weekly workflow with **'SLU00 - Jupyter Notebook'** from **'Week 00'**.
+Congratulations! You are now all set up and you can continue to the last step in the main menu - [step 5](../README.md#5-weekly-workflow), testing the weekly workflow with **'SLU00 - Jupyter Notebook'** from **'Week 00'**.

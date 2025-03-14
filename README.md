@@ -23,8 +23,8 @@ First and foremost, we'll talk about how to use our communication tool, Slack. Y
 <table>
   <tr>
     <td>
-         <a href="slack.md">
-            <img src="docs/assets/slack.png" alt="Slack" height="175" />
+         <a href="docs/slack.md">
+            <img src="media/slack.png" alt="Slack" height="175" />
         </a>
     </td>
   </tr>
@@ -37,18 +37,18 @@ Please choose your operating system:
 <table>
   <tr>
     <td>
-        <a href="macOS.md">
-            <img src="docs/assets/macOS.png" alt="MacOS" height="175" />
+        <a href="docs/macOS.md">
+            <img src="media/macOS.png" alt="MacOS" height="175" />
         </a>
     </td>
     <td>
-        <a href="WINDOWS.md">
-            <img src="docs/assets/windows.png" alt="Windows" height="175" />
+        <a href="docs/WINDOWS.md">
+            <img src="media/windows.png" alt="Windows" height="175" />
         </a>
     </td>
     <td>
-        <a href="LINUX.md">
-            <img src="docs/assets/linux.png" alt="Linux" height="175" />
+        <a href="docs/LINUX.md">
+            <img src="media/linux.png" alt="Linux" height="175" />
         </a>
     </td>
   </tr>
@@ -61,8 +61,8 @@ Click on the image to follow the link.
 <table>
   <tr>
     <td>
-        <a href="github.md">
-            <img src="docs/assets/github.png" alt="GitHub" height="175" />
+        <a href="docs/github.md">
+            <img src="media/github.png" alt="GitHub" height="175" />
         </a>
     </td>
   </tr>
@@ -75,8 +75,8 @@ Click on the image to follow the link.
 <table>
   <tr>
     <td>
-        <a href="python-venv.md">
-            <img src="docs/assets/python-venv.png" alt="python-venv" height="175" />
+        <a href="docs/python-venv.md">
+            <img src="media/python-venv.png" alt="python-venv" height="175" />
         </a>
     </td>
   </tr>
@@ -89,8 +89,8 @@ The workflow that you will follow every week with every new learning unit. Test 
 <table>
   <tr>
     <td>
-        <a href="weekly-workflow.md">
-            <img src="docs/assets/weekly-workflow.png" alt="weekly-workflow" height="175" />
+        <a href="docs/weekly-workflow.md">
+            <img src="media/weekly-workflow.png" alt="weekly-workflow" height="175" />
         </a>
     </td>
   </tr>
@@ -103,8 +103,8 @@ A few common problems and solutions. If you don't find what you're looking for, 
 <table>
   <tr>
     <td>
-        <a href="troubleshooting.md">
-            <img src="docs/assets/troubleshooting.png" alt="troubleshooting" height="175" />
+        <a href="docs/troubleshooting.md">
+            <img src="media/troubleshooting.png" alt="troubleshooting" height="175" />
         </a>
     </td>
   </tr>

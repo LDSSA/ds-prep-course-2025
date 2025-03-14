@@ -1,6 +1,6 @@
 # 3. Setup *Git* and *GitHub*
 
-**'Git'** is a distributed version-control system for tracking changes in source code. A **'repository'** is where code lives, and the code from the prep course will live at [`ds-prep-course-2025`](https://github.com/LDSSA/ds-prep-course-2025) repository (basically where you are right now, reading this). All the learning materials and exercises will be released (made available) on this repository. You will learn more about **'Git'** in the learning units 3 and 6.
+**'Git'** is a distributed version-control system for tracking changes in source code. A **'repository'** is where code lives, and the code from the prep course will live at [ds-prep-course-2025](https://github.com/LDSSA/ds-prep-course-2025) repository (basically where you are right now, reading this). All the learning materials and exercises will be released (made available) on this repository. You will learn more about **'Git'** in the learning units 3 and 6.
 
 ### 3.1 Sign up for GitHub
 
@@ -24,17 +24,21 @@ The **'workspace directory/repository'** is where you will place everything you 
 
 **Step 2:** In the upper-right corner of the page, click the "+" button and select **'New repository'**:
 
-<img src='docs/assets/menu_create_repository.png' alt='Finder' width="75%" />
+<div style="text-align: center;">
+  <img src='media/menu_create_repository.png' alt='New repository'  width="75%" />
+</div>
 
 **Step 3:** Create a new **private** repository called `ds-prep-workspace`.
 
 1. You need to explicitly select `Private` - this is your private work environment where nobody else will have access but you.
 
-1. Initialize with a `README`.
+2. Initialize with a `README`.
 
-1. Add a Python `.gitignore`. This file does exactly what it sounds like - it tells **'Git'** which files to ignore when transfering files between your computer and **'GitHub'**.
+3. Add a Python `.gitignore`. This file does exactly what it sounds like - it tells **'Git'** which files to ignore when transfering files between your computer and **'GitHub'**.
 
-<img src="https://user-images.githubusercontent.com/19359518/112880653-9ef76280-90c2-11eb-8768-00b2153756d5.png" alt='Finder' width="75%">
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/19359518/112880653-9ef76280-90c2-11eb-8768-00b2153756d5.png" alt='Finder' width="75%">
+</div>
 
 You can also check [Creating a new repository](https://help.github.com/en/articles/creating-a-new-repository) on GitHub for help.
 
@@ -77,7 +81,9 @@ Now use the **'token'** instead of your password and press <kbd>enter</kbd>
 
 You should now have a local copy of your `ds-prep-workspace` in your `~/projects/ds-prep-workspace` directory.
 
-<img src='docs/assets/personal_access_token.PNG' width="75%" />
+<div style="text-align: center;">
+<img src='media//personal_access_token.PNG' width="75%" />
+</div>
 
 If the cloning worked out, you should see the cloned repository directory `ds-prep-course-2025` in your `projects` directory. You can see if it's there by listing its contents:
 
@@ -87,7 +93,7 @@ ls ~/projects
 
 ### 3.4 Clone the `ds-prep-course-2025` repository
 
-Let's clone the [`ds-prep-course-2025`](https://github.com/LDSSA/ds-prep-course-2025) repository. This is where all of the learning materials will be made available as the prep course progresses. You will be getting them (pulling) from there.
+Let's clone the [ds-prep-course-2025](https://github.com/LDSSA/ds-prep-course-2025) repository. This is where all of the learning materials will be made available as the prep course progresses. You will be getting them (pulling) from there.
 
 **Step 1:** Open a **'terminal'** (or use one you've already opened) and enter the `projects` directory:
 
@@ -124,4 +130,4 @@ You can check if the copying worked out by listing the contents of the `ds-prep-
 ls ~/projects/ds-prep-workspace
 ```
 
-And you're done with setting **'Git'** and **'GitHub'**! Go back to the main menu and continue with [step 4](https://github.com/LDSSA/ds-prep-course-2025/tree/main?tab=readme-ov-file#4-setup-for-all-operating-systems---python-virtual-environment), setting up the virtual environment.
+And you're done with setting **'Git'** and **'GitHub'**! Go back to the main menu and continue with [step 4](../README.md#4-Setup-for-all-operating-systems-python-virtual-environment), setting up your Python virtual environment.

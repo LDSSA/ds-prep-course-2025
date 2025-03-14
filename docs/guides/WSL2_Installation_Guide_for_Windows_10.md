@@ -4,34 +4,42 @@
 
 <span id="step-1_1" style="color: black;">&nbsp; 1.</span> Type `updates` in your **'Windows search bar'** to open the **'Windows search filter'**:
 
-![alt text](assets/windows_search_bar.png)
+![alt text](media/windows_search_bar.png)
 
 2. Click **'Check for Updates'** in the **'Windows search filter'**:
 
-![alt text](assets/windows_check_for_updates.png)
+<div style="text-align: center;">
+  <img src='media/windows_check_for_updates.png' alt='Sample learning unit' />
+</div>
 
-3. Download and install any updates that appear in the **'Windows Update'** menu (shown below):
+1. Download and install any updates that appear in the **'Windows Update'** menu (shown below):
 
-<img src="assets/windows_update.png" alt="alt text" width="782" height="auto" />
+<div style="text-align: center;">
+  <img src='media/windows_update.png' alt='Sample learning unit' />
+</div>
 
 After you're done installing those updates, please check which **'OS build'** of Windows 10 you are running using the following steps:
 
-4. Type `about` in your **'Windows search bar'** to open the **'Windows search filter'**.
+1. Type `about` in your **'Windows search bar'** to open the **'Windows search filter'**.
 
-1. Click **'About your PC (System settings)'**:
+2. Click **'About your PC (System settings)'**:
 
-![alt text](assets/windows_about_your_pc.png)
+<div style="text-align: center;">
+  <img src='media/windows_about_your_pc.png' alt='Sample learning unit' />
+</div>
 
-6. Check **'OS build'** under **'Windows specifications'**:
+1. Check **'OS build'** under **'Windows specifications'**:
 
-![alt text](assets/windows_specifications.png)
+<div style="text-align: center;">
+  <img src='media/windows_specifications.png' alt='Sample learning unit' />
+</div>
 
-7. If your **'OS build'** number is at least `19041.x` proceed to [section 2](#2-install-the-windows-subsystem-for-linux) (_Install the Windows Subsystem for Linux_).
+1. If your **'OS build'** number is at least `19041.x` proceed to [section 2](#2-install-the-windows-subsystem-for-linux-wsl-2) (_Install the Windows Subsystem for Linux_).
     > The 'x' means any number
 
-8. If your **'OS build'** number is smaller than `19041.x`, then please keep coming back to **'Windows Update'** (previous **[step 1.](#step-1_1)**) and installing updates until you have at least **'OS build'** `19041.x`. Then you may proceed with this guide.
+2. If your **'OS build'** number is smaller than `19041.x`, then please keep coming back to **'Windows Update'** (previous **[step 1.](#step-1_1)**) and installing updates until you have at least **'OS build'** `19041.x`. Then you may proceed with this guide.
 
-> 📝 **Note:** If you have problems checking your system's **'OS build'**, see [Which version of Windows operating system am I running?](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) for more information.
+    > 📝 **Note:** For additional details about your system's information see _[Find Information About Your Windows Device](https://support.microsoft.com/en-us/windows/find-information-about-your-windows-device-a66d52c8-3323-44fd-8f34-a9497bb935e1)_.
 
 ## 2. Install the Windows Subsystem for Linux (WSL 2)
 
@@ -48,37 +56,45 @@ Following, you have two possible ways of doing this (approaches 1 and 2). Use th
 
 2. Click **'Turn Windows features on or off'** in the **'Windows search filter'**:
 
-![alt text](assets/windows_turn_windows_features_on_or_off.png)
+<div style="text-align: center;">
+  <img src='media/windows_turn_windows_features_on_or_off.png' alt='Sample learning unit' />
+</div>
 
-3. In the **'Windows Features'** menu, activate the required checkboxes, indicated below:
+1. In the **'Windows Features'** menu, activate the required checkboxes, indicated below:
 
-![alt text](assets/windows_features.png)
+<div style="text-align: center;">
+  <img src='media/windows_features.png' alt='Sample learning unit' />
+</div>
 
-4. Click <kbd>OK</kbd> to finish.
+1. Click <kbd>OK</kbd> to finish.
 
-5. Restart your computer if asked to.
+2. Restart your computer if asked to.
 
 ### Approach 2: Using the Windows PowerShell
 
 <a id="step-2_2_1" style="color: black;">&nbsp; 1.</a> Open **'PowerShell'** as Administrator by typing `powershell` in your **'Windows search bar'**, and then clicking **'Run as Administrator'** in the **'Windows Search filter'** under **'Windows PowerShell (App)'**
 
-![alt text](assets/windows_powershell.png)
+<div style="text-align: center;">
+  <img src='media/windows_powershell.png' alt='Sample learning unit' />
+</div>
 
-2. Paste the following command in **'PowerShell'**:
+1. Paste the following command in **'PowerShell'**:
 
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux,VirtualMachinePlatform
 ```
 
-![alt text](assets/powershell_turn_on_wsl_and_virtualization.png)
+<div style="text-align: center;">
+  <img src='media/powershell_turn_on_wsl_and_virtualization.png' alt='Sample learning unit' />
+</div>
 
-3. Run it by pressing <kbd>enter</kbd>.
+1. Run it by pressing <kbd>enter</kbd>.
 
-4. Restart your computer if asked to.
+2. Restart your computer if asked to.
 
 ## 3. Install Ubuntu
 
-Open this link to the [Microsoft Store](https://apps.microsoft.com/detail/9PN20MSR04DW?hl=en-gb&gl=GB) and click **'Download'** to install **'Ubuntu 24.04.x'**.
+Open this link to the [Microsoft Store](https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-gb&gl=GB) and click **'Download'** to install **'Ubuntu 24.04.x'**.
 
 ## 4. Launch Ubuntu
 
@@ -86,19 +102,27 @@ Open this link to the [Microsoft Store](https://apps.microsoft.com/detail/9PN20M
 
    - clicking the **'Open'** or **'Launch'** button in the **'Microsoft Store'** page after the download is finished:
 
-      <img src="assets/ubuntu_open_microsoft_store.png" alt="alt text" width="300" height="auto" />
+      <div style="text-align: center;">
+        <img src='media/ubuntu_open_microsoft_store.png' alt='Sample learning unit' width="300" />
+      </div>
 
     or
 
    - <span id="open-ubuntu"></span> typing `ubuntu` in the **'Windows search bar'** and clicking **'Ubuntu 24.04.X LTS'** in the **'Windows search filter'**:
+      
+      📝 This is the method you'll use in the future for opening Ubuntu
 
-      ![!\[alt text\](assets/open_ubuntu.png)](assets/windows_search_bar_ubuntu.png)
+      <div style="text-align: center;">
+        <img src='media/windows_search_bar_ubuntu.png' alt='Sample learning unit' />
+      </div>
 
-1. The first time the newly installed **'Ubuntu'** runs, a **'console'** window will open.
+2. The first time the newly installed **'Ubuntu'** runs, a **'console'** window will open.
 
       - If you get this error:
 
-        ![alt text](assets/ubuntu_instalation_error.png)
+        <div style="text-align: center;">
+          <img src='media/ubuntu_instalation_error.png' alt='Sample learning unit' />
+        </div>
 
         Go to [Download the Linux kernel update package](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package), download the **'WSL 2 Linux kernel update package for x64 machines'** under **'1. Download the latest package:'** and install it.  
         Then, go back to the **'console'** and press any key to continue. If necessary, launch **'Ubuntu'** again using one of the methods described in step 1.
@@ -113,7 +137,9 @@ You'll now be asked to wait for a minute or two for the installation to complete
 
 Once the installation is complete, you will be prompted to create a new **'user account'** (and its **'password'**).
 
-![alt text](assets/UbuntuInstall.png)
+<div style="text-align: center;">
+  <img src='media/UbuntuInstall.png' alt='Sample learning unit' />
+</div>
 
 This user account is for the normal non-admin user that you'll be logged-in by default when launching **'Ubuntu'**.
 
@@ -142,7 +168,7 @@ When you open a new **'Ubuntu'** instance, you won't be prompted for your passwo
    You should get an output similar to:
 
    <div style="text-align: center;">
-     <img src="assets/wsl-status.png" alt="Alt text" />
+     <img src="media/wsl-status.png" alt="Alt text" />
    </div>
 
 3. Check the first line of the output
@@ -183,7 +209,7 @@ When you open a new **'Ubuntu'** instance, you won't be prompted for your passwo
 > Expected output:
 >
 >   <div style="text-align: center;">
->     <img src="assets/wsl-l-v.png" alt="Alt text" />
+>     <img src="media/wsl-l-v.png" alt="Alt text" />
 >   </div>
 
 ## 7. Opening the WSL terminal
@@ -192,21 +218,29 @@ When you open a new **'Ubuntu'** instance, you won't be prompted for your passwo
 
 1. Whenever you want to use **'WSL'**, just type **'Ubuntu'** in your **'Windows search bar'** and open it in the **'Windows search filter'** (as previously stated):
 
-![alt text](assets/windows_search_bar_ubuntu.png)
+   <div style="text-align: center;">
+     <img src="media/windows_search_bar_ubuntu.png" alt="Alt text" />
+   </div>
 
 2. Then a **'terminal'** window will open that allows you to interact with **'Ubuntu'**. The beginning of the line shows your Ubuntu username, `cmm` in this example. If you don't see your Ubuntu username, but the line begins with `root`, you forgot to set up the username when installing Ubuntu. The easiest solution is to reinstall Ubuntu.
 
-![alt text](assets/ubuntu_projects_folder.png)
+   <div style="text-align: center;">
+     <img src="media/ubuntu_projects_folder.png" alt="Alt text" />
+   </div>
 
 ## 8. Enable copy and paste keyboard shortcuts
 
 By default, the **'terminal'** does not allow the usual shortcuts for copying and pasting - you have to enable them first. In the upper left corner of the **'terminal'**, click the orange square, and then click **'Properties'**:
 
-![alt text](assets/ubuntu_properties_option.png)
+<div style="text-align: center;">
+  <img src="media/ubuntu_properties_option.png" alt="Alt text" />
+</div>
 
 Then under the **'Options'** tab, in the **'Edit Options'** section, make sure that **'Use Ctrl+Shift+C/V as Copy/Paste'** in enabled and click <kbd>OK</kbd>:
 
-![alt text](assets/ubuntu_copy_paste_option.png)
+<div style="text-align: center;">
+  <img src="media/ubuntu_copy_paste_option.png" alt="Alt text" />
+</div>
 
 ## 9. Update & upgrade Ubuntu's software packages
 
@@ -226,7 +260,7 @@ If you’d like to use your (familiar) operating system built-in tools to manage
 
 **Approach 1:**
 
-**Step 1:** In the [terminal](./Windows_Subsystem_for_Linux_Installation_Guide_for_Windows_10.md#4-launch-ubuntu), enter your user directory using the `cd` command, replacing `<YOUR USERNAME>` by your actual username:
+**Step 1:** In the [terminal](#open-ubuntu), enter your user directory using the `cd` command, replacing `<YOUR USERNAME>` by your actual username:
 
 ```bash
 cd /home/<YOUR USERNAME>
@@ -249,7 +283,7 @@ explorer.exe .
 Windows Explorer should pop up now:
 
 <div style="text-align: center;">
-  <img src='assets/Ubuntu-in-explorer.png' alt='Sample learning unit' />
+  <img src='media/Ubuntu-in-explorer.png' alt='Sample learning unit' />
 </div>
 
 **Approach 2:**
@@ -259,7 +293,7 @@ Windows Explorer should pop up now:
 **Step 2:** Directly insert the path (in Windows format) to the prep-course directory (`\\wsl.localhost\Ubuntu-24.04\home\<YOUR USERNAME>`) in the Windows Explorer address bar, replacing `<YOUR USERNAME>` by your actual username:
 
 <div style="text-align: center;">
-  <img src='assets/Windows_explorer_address_bar.png' alt='Sample learning unit' width="90%"/>
+  <img src='media/Windows_explorer_address_bar.png' alt='Sample learning unit' width="90%"/>
 </div>
 
 > 📝 Note that Windows path format is different from the GNU/Linux path format, namely:
@@ -272,7 +306,7 @@ Windows Explorer should pop up now:
 **Single step:** Look for the Linux icon down to the bottom of the '**Windows Explorer Navigation Pane**' (usually docked on left side of the window), under which you're should be able to access Ubuntu directly:
 
 <div style="text-align: center;">
-  <img src='assets/Linux_Ubuntu_icons_in_Windows_Explorer.png' alt='Sample learning unit' width="15%"/>
+  <img src='media/Linux_Ubuntu_icons_in_Windows_Explorer.png' alt='Sample learning unit' width="15%"/>
 </div>
 
 > 📝 If your Navigation Pane is not visible in Windows Explorer, check _View_ $\rarr$ _Navigation Pane_
@@ -281,13 +315,17 @@ Windows Explorer should pop up now:
 
 You're all set with **'WSL'**! Never imagined yourself using the wonderful Linux operating system? Don't worry too much about it. First because the LDSA team will be with you all the way, and second, well... Microsoft didn't also, but eventually things change... 😉
 
-> _[Microsoft's CEO, Jun 2001](https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/)_ [^2]:
->
-> <img src="assets/article_ballmer_statement_about_Linux_2001.png" alt="alt text" width="650" height="auto" />
+<div style="text-align: center;">
+  <img src='media/article_ballmer_statement_about_Linux_2001.png' alt='Sample learning unit' width="65%" />
 
-> _[Microsoft (19 contributors), Nov 2023](https://learn.microsoft.com/en-us/windows/wsl/about#microsoft-loves-linux)_ [^3]:
->
-> ![alt text](assets/article_microsoft_loves_linux_2023.png)
+_[Microsoft's CEO, Jun 2001](https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/)_ [^2]
+</div>
+
+<div style="text-align: center;">
+  <img src='media/article_microsoft_loves_linux_2023.png' alt='Sample learning unit' />
+
+_[Microsoft (19 contributors), Nov 2023](https://learn.microsoft.com/en-us/windows/wsl/about#microsoft-loves-linux)_ [^3]
+</div>
 
 That's it! Time to continue with [step 2](../../WINDOWS.md#step-2) of _Set-up instructions for Windows 10/11_.
 

@@ -1,6 +1,6 @@
 # Weekly workflow
 
-**Each week** on Monday a new directory will be released on the [`ds-prep-course-2025`](https://github.com/LDSSA/ds-prep-course-2025) repository. On **'week 1'** (March 25 - March 31), the directory released will be `Week 01`. On **'week 02'**, it will be called `Week 02`, and so on. These directories contain the learning units you'll be working on. The releases will be announced on Slack, on the **[#announcements](https://ldsaprepcourse2025.slack.com/archives/C06FMLGUL82)** channel. Follow this guide to get and work on the learning materials.
+**Each week** on Monday a new directory will be released on the [`ds-prep-course-2025`](https://github.com/LDSSA/ds-prep-course-2025) repository. On **'week 1'** (March 25 - March 31), the directory released will be `Week 01`. On **'week 02'**, it will be called `Week 02`, and so on. These directories contain the learning units you'll be working on. The releases will be announced on Slack, on the **[#announcements](https://ldsaprepcourse2025.slack.com/archives/C08F7QPD2LB)** channel. Follow this guide to get and work on the learning materials.
 
 ## 1.1 Get the learning materials
 
@@ -59,14 +59,18 @@ jupyter notebook
 ```
 
 You should see something similar to this happening in your **'terminal'**:
-![Open exercise notebook](docs/assets/jupyter_terminal.png "Open exercise notebook")
+
+<div style="text-align: center;">
+  <img src='media//jupyter_terminal.png' alt='Alt text'  width="80%" />
+</div>
+
 and your browser should pop up with **'Jupyter notebook'** open. However, if this does not happen, you can simply **copy the link** you see on your terminal (the one that starts with `http://localhost`) and **paste** it in your **'browser's address bar'**.
 
 **Note:** If you see some scary looking messages, don't worry, you can just ignore them.
 
 **Step 2:** Work on the learning unit (**SLU**).
 
-⚠️ **Important:** **ALWAYS** work on the files in your `ds-prep-workspace` repository. **<a style="color: red;">NEVER</a>** work on the files inside in the `ds-prep-course-2025` repository!
+⚠️ **Important:** **ALWAYS** work on the files in your `ds-prep-workspace` repository. **<span style="color: red;">NEVER</span>** work on the files inside in the `ds-prep-course-2025` repository!
 
 - Study the **'Learning Notebook'**. You can interact with the notebook and try out the code.
 
@@ -84,15 +88,21 @@ and your browser should pop up with **'Jupyter notebook'** open. However, if thi
   1.  Save the Exercise notebook (again)
   2.  Run "Restart & Run All"
 
-  ![Restart & Run All](docs/assets/jupyter_clear_and_run.png)
+      <div style="text-align: center;">
+        <img src='media//jupyter_clear_and_run.png' alt='Alt text' />
+      </div>
 
   3.  Ensure that the last cell of the notebook has been executed as represented by a number between brackets beside the top left of the cell. If instead of a number you see a '\*', the cell is still busy and the exercise notebook is not ready for submission.
 
-  ![notebook_busy_cell](docs/assets/notebook_busy_cell.png)
+      <div style="text-align: center;">
+        <img src='media//notebook_busy_cell.png' alt='Alt text' />
+      </div>
 
   4.  At this point the notebook should have run without any error messages showing up.
 
-  ![terminal notebook](docs/assets/terminal_notebook.png)
+      <div style="text-align: center;">
+        <img src='media//terminal_notebook.png' alt='Alt text' width="70%" />
+      </div>
 
   5.  Close all the notebooks, return to the terminal and stop the notebook server by typing `Ctrl+C+C` (`Ctrl` and two times `C` ).
 
