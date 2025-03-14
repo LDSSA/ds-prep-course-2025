@@ -3,7 +3,7 @@
 Welcome to the Data Science Prep Course repository! 🧑‍💻
 
 The course will officially start on **Monday, March 17, 2025**.  
-In the meantime, stay tuned on Slack for the latest updates.
+In the meantime, stay tuned on [Slack](https://ldsaprepcourse2025.slack.com/archives/C08F7QPD2LB) for the latest updates.
 
 Are you ready for the journey? 🚀
 
