@@ -1,9 +1,9 @@
-nbgrader==0.9.1    # base, Jupyter notebook
+nbgrader==0.9.5    # base, Jupyter notebook
 
-numpy==1.26.0      # used by some units (SLU08 - Functions Intermediate: Exercise notebook, ...)
-matplotlib==3.8.2  # used by some units (SLU12 - Linear Algebra & NumPy, Part 1, ...)
-pygame==2.5.2      # used by SLU16 - Final project
+numpy==2.2.3       # used by some units (SLU08 - Functions Intermediate: Exercise notebook, ...)
+matplotlib==3.10.1 # used by some units (SLU12 - Linear Algebra & NumPy, Part 1, ...)
+pygame==2.6.1      # used by SLU16 - Final project
 
-pytest==8.0.0      # used in Exam preparation II (SLU18_1)
+pytest==8.3.5      # used in Exam preparation II (SLU18_1)
 geopy==2.4.1       # used in Exam preparation II (SLU18_2)
-scipy==1.12.0      # used in Exam preparation II (SLU18_4)
+scipy==1.15.2      # used in Exam preparation II (SLU18_4)

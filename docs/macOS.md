@@ -10,12 +10,12 @@ Some of the steps in the following sections will require **'Homebrew'** for MacO
 
 **Step 1:** Open a **'terminal'** in one of the following ways:
 
-- In Finder <img src='media/finder.png' alt='Finder' width="4%" />, open the `/Applications/Utilities` folder, then double-click **'terminal'**.
+- In Finder <img src='/docs/assets/finder.png' alt='Finder' width="4%" />, open the `/Applications/Utilities` folder, then double-click **'terminal'**.
 - Press <kbd>cmd</kbd> + <kbd>space</kbd> then type **'terminal'** and press <kbd>enter</kbd>.
 
   The terminal should now be open:
 
-    <img src='media/mac_terminal.png' width="50%" />
+    <img src='/docs/assets/mac_terminal.png' width="50%" />
 
 **Step 2:** To install **'Homebrew'** for MacOS, copy and paste the following line in the terminal:
 
@@ -55,4 +55,22 @@ brew install python@3.13
 brew link python@3.13
 ```
 
-And you're done! Go back to the main menu and continue with setting up Git and GitHub in [step 3](README.md#3-setup-git-and-gitHub).
+And you're done! Go back to the main menu and continue with setting up Git and GitHub in [step 3](README.md#3-setup-git-and-github).
+
+# Additional information
+
+## How to the Graphical User Interface (GUI) to access the local repos
+
+In Finder <img src='/docs/assets/finder.png' alt='Finder' width="4%" height="4%"/>, open the **'Go'** menu, choose the option **'Go to folder...'**
+
+<div style="text-align: center;">
+  <img src='/docs/assets/go_to_folder.png' alt='Sample learning unit' width="50%"/>
+</div>
+
+Now paste the path to the directory you wish, for example `/home/<YOUR USERNAME>` (or simply `~`), replacing `<YOUR USERNAME>` by your actual username, and then clicking **'Go'**.
+
+As an example, later on in the setup, you'll be able to access your local repo using `~/projects/ds-prep-workspace`: 
+
+<div style="text-align: center;">
+  <img src='/docs/assets/finder_go.png' alt='Sample learning unit' width="70%"/>
+</div>

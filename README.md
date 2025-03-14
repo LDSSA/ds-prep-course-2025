@@ -2,10 +2,12 @@
 
 Welcome to the Data Science Prep Course repository! 🧑‍💻
 
-Your first step in this journey is to **carefully read** the steps in this tutorial.  
-⚠️ **Important**: Make sure to complete all the steps during the setup week, **17.3 - 23.3. 2025**. If you are struggling with any of the steps, tell us in the [#set-up](https://ldsaprepcourse2025.slack.com/archives/C06GMB5BHU7) channel on Slack! In this tutorial, you'll learn:
+The course will officially start on **Monday, March 17, 2025**.
+In the meantime, stay tuned on Slack for the latest updates.
+Are you ready for the journey? 🚀
 
-<!-- Slack link is broken -->
+<!-- Your first step in this journey is to **carefully read** the steps in this tutorial.  
+⚠️ **Important**: Make sure to complete all the steps during the setup week, **17.3 - 23.3. 2025**. If you are struggling with any of the steps, tell us in the [#setup](https://ldsaprepcourse2025.slack.com/archives/C08H3963079) channel on Slack! In this tutorial, you'll learn:
 
 - Slack usage and etiquette;
 - How to setup your software environment;
@@ -21,7 +23,7 @@ First and foremost, we'll talk about how to use our communication tool, Slack. Y
   <tr>
     <td>
          <a href="slack.md">
-            <img src="media/slack.png" alt="Slack" />
+            <img src="docs/assets/slack.png" alt="Slack" height="175" />
         </a>
     </td>
   </tr>
@@ -35,17 +37,17 @@ Please choose your operating system:
   <tr>
     <td>
         <a href="macOS.md">
-            <img src="media/macOS.png" alt="MacOS" />
+            <img src="docs/assets/macOS.png" alt="MacOS" height="175" />
         </a>
     </td>
     <td>
         <a href="WINDOWS.md">
-            <img src="media/windows.png" alt="Windows" />
+            <img src="docs/assets/windows.png" alt="Windows" height="175" />
         </a>
     </td>
     <td>
         <a href="LINUX.md">
-            <img src="media/linux.png" alt="Linux" />
+            <img src="docs/assets/linux.png" alt="Linux" height="175" />
         </a>
     </td>
   </tr>
@@ -59,7 +61,7 @@ Click on the image to follow the link.
   <tr>
     <td>
         <a href="github.md">
-            <img src="media/github.png" alt="GitHub" />
+            <img src="docs/assets/github.png" alt="GitHub" height="175" />
         </a>
     </td>
   </tr>
@@ -73,7 +75,7 @@ Click on the image to follow the link.
   <tr>
     <td>
         <a href="python-venv.md">
-            <img src="media/python-venv.png" alt="python-venv" />
+            <img src="docs/assets/python-venv.png" alt="python-venv" height="175" />
         </a>
     </td>
   </tr>
@@ -87,7 +89,7 @@ The workflow that you will follow every week with every new learning unit. Test 
   <tr>
     <td>
         <a href="weekly-workflow.md">
-            <img src="media/weekly-workflow.png" alt="weekly-workflow" height="300"/>
+            <img src="docs/assets/weekly-workflow.png" alt="weekly-workflow" height="175" />
         </a>
     </td>
   </tr>
@@ -101,8 +103,8 @@ A few common problems and solutions. If you don't find what you're looking for, 
   <tr>
     <td>
         <a href="troubleshooting.md">
-            <img src="media/troubleshooting.png" alt="troubleshooting" />
+            <img src="docs/assets/troubleshooting.png" alt="troubleshooting" height="175" />
         </a>
     </td>
   </tr>
-</table>
+</table> -->

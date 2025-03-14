@@ -13,14 +13,14 @@ Although the app installation is recommended, if you don't wish to install **'Sl
 1. For your sanity, set how and when you want to be notified in **'Preferences'** -> **'Notifications'**.
 1. You can install the **'Slack'** app on your phone.
 1. Use the **'channel'** of the Week you're asking about for questions about the learning material.
-1. Use the [#set-up](https://ldsaprepcourse2025.slack.com/archives/C06GMB5BHU7) channel for technical questions.
+1. Use the [#setup](https://ldsaprepcourse2025.slack.com/archives/C08H3963079) channel for technical questions.
 1. Check if your question was already asked before posting.
 1. **Always answer in a thread**, it helps keep the conversations organized.
 2. Use <kbd>Shift</kbd> + <kbd>Enter</kbd> for newlines, just <kbd>Enter</kbd> will send the message.
 3. If you want to report bugs in the materials, you can open an [issue on the ds-prep-course-2025 repo](https://github.com/LDSSA/ds-prep-course-2025/issues/).
-4. If you want to give feedback post it in the [#feedback](https://ldsaprepcourse2025.slack.com/archives/C06H1T2AXFC) channel.
-5. Anything not related with the learning materials should go to the [#random](https://ldsaprepcourse2025.slack.com/archives/C06GACNJ740) channel, except for [#adorable](https://ldsaprepcourse2025.slack.com/archives/C06GV7T3VJA) "things".
-6. Finally, stay tuned in the [#announcements](https://ldsaprepcourse2025.slack.com/archives/C06FMLGUL82) channel. **All the information you need about the course and its flow will be posted there**.
+4. If you want to give feedback post it in the [#feedback](https://ldsaprepcourse2025.slack.com/archives/C08HGUDAPQV) channel.
+5. Anything not related with the learning materials should go to the [#random](https://ldsaprepcourse2025.slack.com/archives/C08HK04MW2W) channel, except for [#adorable](https://ldsaprepcourse2025.slack.com/archives/C08F7QPDUN7) "things".
+6. Finally, stay tuned in the [#announcements](https://ldsaprepcourse2025.slack.com/archives/C08F7QPD2LB) channel. **All the information you need about the course and its flow will be posted there**.
 
 See more tips for asking for help on [this wiki page](https://ldssa.github.io/wiki/DS%20Prep%20Course/Data-Science-Prep-Course/#how-to-ask-for-help).
 

@@ -24,7 +24,7 @@ The **'workspace directory/repository'** is where you will place everything you 
 
 **Step 2:** In the upper-right corner of the page, click the "+" button and select **'New repository'**:
 
-<img src='media/menu_create_repository.png' alt='Finder' width="75%" />
+<img src='docs/assets/menu_create_repository.png' alt='Finder' width="75%" />
 
 **Step 3:** Create a new **private** repository called `ds-prep-workspace`.
 
@@ -44,13 +44,13 @@ Your **'workspace repository'** now exists on **'GitHub'**, but you also need a 
 
 **Step 1:** Open a terminal (or use one you've already opened).
 
-**Step 2:** Create a folder named `projects` by using the `mkdir` command. Don't feel intimidated by these commands. They are simply `bash` - a language to communicate with your operating system. `mkdir` essentially stands for **m**a**k**e **dir**ectory. The tilde symbol `~` is a shortcut address for your home directory.
+**Step 2:** Create a directory named `projects` by using the `mkdir` command. Don't feel intimidated by these commands. They are simply `bash` - a language to communicate with your operating system. `mkdir` essentially stands for **m**a**k**e **dir**ectory. The tilde symbol `~` is a shortcut address for your home directory.
 
 ```bash
 mkdir ~/projects
 ```
 
-**Step 3:** Enter the folder by using the `cd` command. Did you know that `cd` means **c**hange **d**irectory? So basically changing to a different folder.
+**Step 3:** Enter the directory by using the `cd` command. Did you know that `cd` means **c**hange **d**irectory? So basically changing to a different directory.
 
 ```bash
 cd ~/projects
@@ -75,11 +75,11 @@ Go to <https://github.com/settings/tokens> and click on **'Generate new token'**
 
 Now use the **'token'** instead of your password and press <kbd>enter</kbd>
 
-You should now have a local copy of your `ds-prep-workspace` in your `~/projects/ds-prep-workspace` folder.
+You should now have a local copy of your `ds-prep-workspace` in your `~/projects/ds-prep-workspace` directory.
 
-<img src='media/personal_access_token.PNG' width="75%" />
+<img src='docs/assets/personal_access_token.PNG' width="75%" />
 
-If the cloning worked out, you should see the cloned repository folder `ds-prep-course-2025` in your `projects` directory. You can see if it's there by listing its contents:
+If the cloning worked out, you should see the cloned repository directory `ds-prep-course-2025` in your `projects` directory. You can see if it's there by listing its contents:
 
 ```bash
 ls ~/projects
@@ -89,7 +89,7 @@ ls ~/projects
 
 Let's clone the [`ds-prep-course-2025`](https://github.com/LDSSA/ds-prep-course-2025) repository. This is where all of the learning materials will be made available as the prep course progresses. You will be getting them (pulling) from there.
 
-**Step 1:** Open a **'terminal'** (or use one you've already opened) and enter the `projects` folder:
+**Step 1:** Open a **'terminal'** (or use one you've already opened) and enter the `projects` directory:
 
 ```bash
 cd ~/projects
@@ -107,7 +107,7 @@ If you are using **'SSH keys'** for **'GitHub'**, use this command:
 git clone git@github.com:LDSSA/ds-prep-course-2025.git
 ```
 
-If the cloning worked out, you should see the cloned repository folder `ds-prep-course-2025` in your `projects` directory. You can see if it's there by listing its contents:
+If the cloning worked out, you should see the cloned repository directory `ds-prep-course-2025` in your `projects` directory. You can see if it's there by listing its contents:
 
 ```bash
 ls ~/projects
@@ -124,4 +124,4 @@ You can check if the copying worked out by listing the contents of the `ds-prep-
 ls ~/projects/ds-prep-workspace
 ```
 
-And you're done with setting **'Git'** and **'GitHub'**! Go back to the main menu and continue with [step 4](https://github.com/LDSSA/ds-prep-course-2025/tree/main), setting up the virtual environment.
+And you're done with setting **'Git'** and **'GitHub'**! Go back to the main menu and continue with [step 4](https://github.com/LDSSA/ds-prep-course-2025/tree/main?tab=readme-ov-file#4-setup-for-all-operating-systems---python-virtual-environment), setting up the virtual environment.
