@@ -6,19 +6,13 @@
 
 We will use the `venv` software package to create the virtual environment. The virtual environment will be just a directory on your computer where all the necessary software packages are installed. We will be using the same environment for the whole course and install all the packages at the beginning. (In the Academy, there will be a different virtual environment for each learning unit.)
 
-**Step 1:** Start by ensuring that the Python packages `pip`, `setuptools`, and `wheel` are up to date:
-
-```bash
-python3.13 -m pip install --user --upgrade pip setuptools wheel
-```
-
-**Step 2:** Create a **'virtual environment'** with the name `prep-venv` in the `.virtualenvs` directory:
+**Step 1:** Create a **'virtual environment'** with the name `prep-venv` in the `.virtualenvs` directory:
 
 ```bash
 python3.13 -m venv ~/.virtualenvs/prep-venv
 ```
 
-**Step 3:** Activate the environment:
+**Step 2:** Activate the environment:
 
 ```bash
 source ~/.virtualenvs/prep-venv/bin/activate
@@ -30,10 +24,10 @@ After you activate your **'virtual environment'** you should see at the leftmost
 `(prep-venv) mig@macbook-pro %`
 ```
 
-**Step 4:** Update `pip`:
+**Step 3:** Install and ensure that the Python packages `pip`, `setuptools`, and `wheel` are up to date:
 
 ```bash
-pip install -U pip
+python3.13 -m pip install --user --upgrade pip setuptools wheel
 ```
 
 **Step 5:**: Navigate to your **'workspace directory'** and install the **'Python packages'** from the `requirements.txt` file:
