@@ -94,7 +94,9 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 ## 3. Install Ubuntu
 
-Open this link to the [Microsoft Store](https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-gb&gl=GB) and click **'Download'** to install **'Ubuntu 24.04.x'**.
+Open this link to the [Microsoft Store](https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-gb&gl=GB) and click **'Download'** to install **'Ubuntu 24.04.x'**, (where 'x' is any number).
+
+> ⚠️ **Warning:** Please note that we will be using **Ubuntu 24.04.x** in this course. Following illustrations may depict a different version (22.04), but they are for **demonstration purposes only**, as procedures remain essentially the same.
 
 ## 4. Launch Ubuntu
 
