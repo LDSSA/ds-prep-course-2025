@@ -20,7 +20,7 @@ Some of the steps in the following sections will require **'Homebrew'** for MacO
 **Step 2:** To install **'Homebrew'** for MacOS, copy and paste the following line in the terminal:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 **Step 2.1:** Sometimes it's necessary to install **'xcode command line utils'**. To do so, execute the following command before installing **'Homebrew'**:
