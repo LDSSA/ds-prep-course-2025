@@ -27,7 +27,7 @@ After you activate your **'virtual environment'** you should see at the leftmost
 **Step 3:** Install and ensure that the Python packages `pip`, `setuptools`, and `wheel` are up to date:
 
 ```bash
-python3.13 -m pip install --user --upgrade pip setuptools wheel
+python3.13 -m pip install --upgrade pip setuptools wheel
 ```
 
 **Step 5:**: Navigate to your **'workspace directory'** and install the **'Python packages'** from the `requirements.txt` file:
