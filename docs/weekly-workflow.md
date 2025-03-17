@@ -83,73 +83,71 @@ and your browser should pop up with **'Jupyter notebook'** open. However, if thi
 <a name="link-to-grading"></a>
 **Step 3:** Grading the exercise notebook
 
-- Once you've solved all the exercises, we recommend following this simple checklist to avoid unexpected surprises:
+Once you've solved all the exercises, we recommend following this simple checklist to avoid unexpected surprises:
 
-  1.  Save the Exercise notebook (again)
-  2.  Run "Restart & Run All"
+1.  Save the Exercise notebook (again)
+2.  Run "Restart & Run All"
 
-      <div style="text-align: center;">
-        <img src='media//jupyter_clear_and_run.png' alt='Alt text' />
-      </div>
+    <div style="text-align: center;">
+      <img src='media//jupyter_clear_and_run.png' alt='Alt text' />
+    </div>
 
-  3.  **Ensure that the last cell of the notebook has been executed** as represented by a number between brackets beside the top left of the cell. If instead of a number you see a '\*', the cell is still busy and the exercise notebook is not ready for submission.
+3.  **Ensure that the last cell of the notebook has been executed** as represented by a number between brackets beside the top left of the cell. If instead of a number you see a '\*', the cell is still busy and the exercise notebook is not ready for submission.
 
-      <div style="text-align: center;">
-        <img src='media//notebook_busy_cell.png' alt='Alt text' />
-      </div>
+    <div style="text-align: center;">
+      <img src='media//notebook_busy_cell.png' alt='Alt text' />
+    </div>
 
-  4.  At this point the notebook should have run without any error messages showing up.
+4.  At this point the notebook should have run without any error messages showing up.
 
-      <div style="text-align: center;">
-        <img src='media//terminal_notebook.png' alt='Alt text' width="70%" />
-      </div>
+    <div style="text-align: center;">
+      <img src='media//terminal_notebook.png' alt='Alt text' width="70%" />
+    </div>
 
-  5.  Close all the notebooks, return to the terminal and stop the notebook server by typing `Ctrl+C+C` (`Ctrl` and two times `C` ).
+5.  Close all the notebooks, return to the terminal and stop the notebook server by typing `Ctrl+C+C` (`Ctrl` and two times `C` ).
 
 
 
-  6.  Get your Slack ID (read [this](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) if you don't know where to find it) and submit the notebook to the [portal](https://prep-course-portal.ldsacademy.org/). **The virtual environment has to be activated and you have be in the learning unit directory!**
+6.  Get your Slack ID (read [this](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) if you don't know where to find it) and submit the notebook to the portal. **The virtual environment has to be activated and you have be in the learning unit directory!**
 
-  First, make sure that you are in the correct SLU directory:
+<!-- [portal](https://prep-course-portal.ldsacademy.org/) -->
 
-  ```bash
-  cd ~/projects/ds-prep-workspace/"Week <week number>"/"<SLU name>"
-  ```
+7. Make sure that you are in the correct SLU directory:
 
-  Then submit the notebook to the portal:
+    ```bash
+    cd ~/projects/ds-prep-workspace/"Week <week number>"/"<SLU name>"
+    ```
 
-  ```bash
-  python3.13 submit.py --notebook --slackid "YOUR_SLACK_ID"
-  ```
+    **Example:** For **'Week 00'** you'd do:
 
-  **Example:** For **'Week 00'** you'd do:
+    ```bash
+    cd ~/projects/ds-prep-workspace/"Week 00"/"SLU00 - Jupyter Notebook"
+    ```
 
-  ```bash
-  cd ~/projects/ds-prep-workspace/"Week 00"/"SLU00 - Jupyter Notebook"
-  ```
+8. Submit the notebook to the portal:
 
-  then:
-  
-  ```bash
-  python3.13 submit.py --notebook "Exercise notebook" --slackid "YOUR_SLACK_ID"
-  ```
+    ```bash
+    python submit.py --notebook "Exercise notebook" --slackid "YOUR_SLACK_ID"
+    ```
 
-  With numbered Exercise notebooks, include the number like this:
-  
-  ```bash
-  python submit.py --notebook "Exercise notebook 1" --slackid "YOUR_SLACK_ID"
-  ```
-  
-  It can take a while for the submission to get through. If it worked out, you should get a message like this one. You will see your grade (score) and the learning unit number.
+    With numbered Exercise notebooks, include the number like this:
+    
+    ```bash
+    python submit.py --notebook "Exercise notebook 1" --slackid "YOUR_SLACK_ID"
+    ```
 
-  ```bash
-  20.0
-  {'learning_unit': 0, 'exercise_notebook': 1, 'slackid': 'U04ST63FC02', 'score': 20.0}
-  Success!
-   {"id":10,"created":"2023-03-26T00:40:17.603128Z", "slackid":"U04ST63FC02", "learning_unit" 0, "exercise_notebook":1, "score":20.0}
-  ```
+    It can take a while for the submission to get through. If it worked out, you should get a message like this one. You will see your grade (score) and the learning unit number.
 
-  Your submission should now be on the [portal](https://prep-course-portal.ldsacademy.org/). The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID. Use `Ctrl+F` to search for your Slack ID. You can then click on your Slack ID to see all your submissions.
+    ```bash
+    20.0
+    {'learning_unit': 0, 'exercise_notebook': 1, 'slackid': 'U04ST63FC02', 'score': 20.0}
+    Success!
+    {"id":10,"created":"2023-03-26T00:40:17.603128Z", "slackid":"U04ST63FC02", "learning_unit" 0, "exercise_notebook":1, "score":20.0}
+    ```
+
+Your submission should now be on the portal. The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID. Use `Ctrl+F` to search for your Slack ID. You can then click on your Slack ID to see all your submissions.
+
+<!-- [portal](https://prep-course-portal.ldsacademy.org/) -->
 
 **Step 4:** **'Commit'** and **'push'**
 
@@ -157,23 +155,23 @@ Now is the time to transfer your work from the **'local workspace'** repo to the
 
 1.  Open a **'terminal'** and navigate to your **'local workspace'**:
 
-```bash
-cd ~/projects/ds-prep-workspace
-```
+    ```bash
+    cd ~/projects/ds-prep-workspace
+    ```
 
 2.  These steps will take a snapshot of your **'local workspace'** in this moment in time and transfer it to your **'remote workspace'** repo. You will understand them once your have studied SLU03.
 
-```bash
-git add .
-```
+    ```bash
+    git add .
+    ```
 
-```bash
-git commit -m "Exercises for Week <week number>"
-```
+    ```bash
+    git commit -m "Exercises for Week <week number>"
+    ```
 
-```bash
-git push
-```
+    ```bash
+    git push
+    ```
 
 You'll be asked for your **'Git'** username and password - enter your **'token'** for the password.
 
