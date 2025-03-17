@@ -92,7 +92,7 @@ and your browser should pop up with **'Jupyter notebook'** open. However, if thi
         <img src='media//jupyter_clear_and_run.png' alt='Alt text' />
       </div>
 
-  3.  Ensure that the last cell of the notebook has been executed as represented by a number between brackets beside the top left of the cell. If instead of a number you see a '\*', the cell is still busy and the exercise notebook is not ready for submission.
+  3.  **Ensure that the last cell of the notebook has been executed** as represented by a number between brackets beside the top left of the cell. If instead of a number you see a '\*', the cell is still busy and the exercise notebook is not ready for submission.
 
       <div style="text-align: center;">
         <img src='media//notebook_busy_cell.png' alt='Alt text' />
@@ -105,6 +105,8 @@ and your browser should pop up with **'Jupyter notebook'** open. However, if thi
       </div>
 
   5.  Close all the notebooks, return to the terminal and stop the notebook server by typing `Ctrl+C+C` (`Ctrl` and two times `C` ).
+
+
 
   6.  Get your Slack ID (read [this](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) if you don't know where to find it) and submit the notebook to the [portal](https://prep-course-portal.ldsacademy.org/). **The virtual environment has to be activated and you have be in the learning unit directory!**
 

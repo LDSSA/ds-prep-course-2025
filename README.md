@@ -1,14 +1,14 @@
-# Data Science Prep Course 2025
+<!-- # Data Science Prep Course 2025
 
 Welcome to the Data Science Prep Course repository! 🧑‍💻
 
 The course will officially start on **Monday, March 17, 2025**.  
 In the meantime, stay tuned on [Slack](https://ldsaprepcourse2025.slack.com/archives/C08F7QPD2LB) for the latest updates.
 
-Are you ready for the journey? 🚀
+Are you ready for the journey? 🚀 -->
 
-<!-- Your first step in this journey is to **carefully read** the steps in this tutorial.  
-⚠️ **Important**: Make sure to complete all the steps during the setup week, **17.3 - 23.3. 2025**. If you are struggling with any of the steps, tell us in the [#setup](https://ldsaprepcourse2025.slack.com/archives/C08H3963079) channel on Slack! In this tutorial, you'll learn:
+Your first step in this journey is to **carefully read** the steps in this tutorial.  
+⚠️ **Important**: Make sure to complete all the steps during the setup week, **17.3 - 23.3. 2025**. If you are struggling with any of the steps, tell us in the [#set-up](https://ldsaprepcourse2025.slack.com/archives/C08H3963079) channel on Slack! In this tutorial, you'll learn:
 
 - Slack usage and etiquette;
 - How to setup your software environment;
@@ -108,4 +108,4 @@ A few common problems and solutions. If you don't find what you're looking for, 
         </a>
     </td>
   </tr>
-</table> -->
+</table>
