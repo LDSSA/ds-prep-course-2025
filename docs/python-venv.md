@@ -24,7 +24,7 @@ After you activate your **'virtual environment'** you should see at the leftmost
 `(prep-venv) mig@macbook-pro %`
 ```
 
-**Step 3:** Install and ensure that the Python packages `pip`, `setuptools`, and `wheel` are up to date:
+**Step 3:** Ensure that the Python packages `pip`, `setuptools`, and `wheel` are installed and up to date:
 
 ```bash
 python3.13 -m pip install --upgrade pip setuptools wheel
