@@ -83,7 +83,7 @@ and your browser should pop up with **'Jupyter notebook'** open. However, if thi
 <a name="link-to-grading"></a>
 **Step 3:** Grading and submiting the exercise notebook
 
-> ❗ **IMPORTANT:** The LDSA Prep-course portal (where you'll be submitting your weekly work to) will open Friday, 20/03/2025. Please don't try to submit your work before that date.
+> ❗ **IMPORTANT:** The LDSA Prep-course portal (where you'll be submitting your weekly work to) **will open Friday, 21/03/2025**. Please **don't try to submit your work before that date**.
 
 Once you've solved all the exercises, we recommend following this simple checklist to avoid unexpected surprises:
 
