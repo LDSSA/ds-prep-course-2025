@@ -30,10 +30,15 @@ After you activate your **'virtual environment'** you should see at the leftmost
 python3.13 -m pip install --upgrade pip setuptools wheel
 ```
 
-**Step 5:**: Navigate to your **'workspace directory'** and install the **'Python packages'** from the `requirements.txt` file:
+**Step 5:**: Navigate to your **'workspace directory'**:
 
 ```bash
 cd ~/projects/ds-prep-workspace
+```
+
+, and install the **'Python packages'** from the `requirements.txt` file:
+
+```bash
 pip install -r requirements.txt
 ```
 
