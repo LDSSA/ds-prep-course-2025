@@ -32,6 +32,37 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update && sudo apt install python3.13 -y
 ```
 
+> ⚠️ **Warning:** If you get this error:
+> 
+> ![alt text](image.png)
+> 
+> Run:
+> 
+> ```bash
+> sudo apt update
+> ```
+>
+> Then:
+>
+> ```bash
+> sudo apt install --fix-broken libc6 -y
+> ```
+> 
+> Finally, install Python 3.13 again with:
+>
+> ```bash
+> sudo apt update && sudo apt install python3.13 -y
+> ```
+
+> <!-- If necessary, before reinstallation:
+>  
+> And then:
+>
+> ```bash
+> sudo dpkg --configure -a
+> ```
+> -->
+
 **<a id="step-4" style="color: black;">Step 4:</a>** Run the following command to get `pip` and `venv`. **'pip'** is a package manager - it will help you easily install software. **'venv'** is a software for creating virtual environments (we will come back to what this means in the next set up step):
 
 ```bash
