@@ -36,13 +36,19 @@ sudo apt update && sudo apt install python3.13 -y
 > 
 > ![alt text](image.png)
 > 
-> Run:
+> run:
 > 
 > ```bash
 > sudo apt update && sudo apt install --fix-broken libc6 -y
 > ```
 > 
-> Then, install Python 3.13 again with:
+> , then:
+> 
+> ```bash
+> sudo dpkg --configure -a
+> ```
+> 
+> , and finally, install Python 3.13 again with:
 >
 > ```bash
 > sudo apt update && sudo apt install python3.13 -y
