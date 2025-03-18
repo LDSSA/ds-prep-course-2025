@@ -42,6 +42,26 @@ The **'workspace directory/repository'** is where you will place everything you 
 
 You can also check [Creating a new repository](https://help.github.com/en/articles/creating-a-new-repository) on GitHub for help.
 
+**Step 4:** Create your GitHub **Personal Access Token** (**PAT**)
+
+Go to <https://github.com/settings/tokens> (or manually through your _user menu_ in the top right most circle in the page $\rightarrow$ _Settings_ $\rightarrow$ _Developer settings_ (last option in the list) $\rightarrow$ _Personal access tokens_ $\rightarrow$ _Tokens (classic)_), and click on **'Generate new token'**. You can give it a name in the note field, such as `ldsa-token`. Then select `repo` in the scopes and click on **'Generate token'**. You will be shown a **'token'** you **should save** - ❗ **IMPORTANT:** **You will not be able to see it again after leaving that window**.
+
+
+<div style="text-align: center;">
+  <img src='media//personal_access_token.PNG' width="75%" />
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 ### 3.3 Clone your workspace repository
 
 Your **'workspace repository'** now exists on **'GitHub'**, but you also need a local copy (clone) on your computer. You will be working in the **'local workspace repository'** and then transfer your work to your **'remote workspace repository'** on **'GitHub'**.
@@ -61,35 +81,31 @@ cd ~/projects
 ```
 
 **Step 4:** You can now **clone** (create a local copy of) the `ds-prep-workspace` repository you created on **'GitHub'**.
-Replace `<username>` below with your **'GitHub'** username, removing the brackets `< >`, and run the command:
+Replace `<username>` and `<personal access token>` below with your **'GitHub'** **username** and **personal access token**, respectively: 
 
 ```bash
-git clone https://github.com/<username>/ds-prep-workspace.git
+git clone https://<username>:<personal access token>@github.com/<username>/ds-prep-workspace.git
 ```
 
-> 📝 **Note**: if you have had a **'GitHub'** account since before this course and you are using **'SSH keys'** instead of **'tokens'**, first make sure that you have completed the steps starting [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys), then clone your repository like this. You can skip step 5 and continue with [section 3.4](#34-clone-the-ds-prep-course-2025-repository).
+> 📝 **Note:** GitHub Personal Access Tokens are sequences of characters that begin with `ghp_` which **is also part of the token**
 
-```bash
-git clone git@github.com:<username>/ds-prep-workspace.git
-```
+> 📝 **Note:** You have to replace `<username>` twice in the command
 
-**Step 5:** You'll be asked for your **'GitHub'** username. Type it and press <kbd>enter</kbd>. Then you'll be asked for your git password. Passwords no longer work for **'GitHub'**, you will need to use **'tokens'**.
+> 📝 **Note**: If you have had a **'GitHub'** account since before this course and you are using **'SSH keys'** instead of **'tokens'**, first make sure that you have completed the steps starting [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys), then clone your repository like this:
+> 
+> ```bash
+> git clone git@github.com:<username>/ds-prep-workspace.git
+> ```
 
-Go to <https://github.com/settings/tokens> and click on **'Generate new token'**. You can give it a name in the note field, such as `ldsa-token`. Then select `repo` in the scopes and click on **'Generate token'**. You will be shown a **'token'** you should save - ⚠️ **you will not be able to see it again after leaving that window**.
+> 📝 **Note**: When performing this step, if you're prompted for your **'GitHub'** username, type it and press <kbd>enter</kbd>. If you're prompted for your git password, **use your token instead** and press <kbd>enter</kbd>, as passwords no longer work for **'GitHub'** CLI access.
 
-Now use the **'token'** instead of your password and press <kbd>enter</kbd>
-
-You should now have a local copy of your `ds-prep-workspace` in your `~/projects/ds-prep-workspace` directory.
-
-<div style="text-align: center;">
-<img src='media//personal_access_token.PNG' width="75%" />
-</div>
-
-If the cloning worked out, you should see the cloned repository directory `ds-prep-course-2025` in your `projects` directory. You can see if it's there by listing its contents:
+If the cloning worked out, you should now have a local copy of the content of your `ds-prep-workspace` repository inside your `~/projects/ds-prep-workspace` directory, which you can check using:
 
 ```bash
 ls ~/projects
 ```
+
+If it lists `ds-prep-workspace`, you're good to go!
 
 ### 3.4 Clone the `ds-prep-course-2025` repository
 
