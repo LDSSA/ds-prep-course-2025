@@ -34,7 +34,7 @@ sudo apt update && sudo apt install python3.13 -y
 
 > ⚠️ **Warning:** If you get this error:
 > 
-> ![alt text](image.png)
+> ![alt text](media/python-error-example.png)
 > 
 > run:
 > 
