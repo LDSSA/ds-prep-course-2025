@@ -82,7 +82,7 @@ You'll be asked for your 'GitHub' username. Type it and press <kbd>Enter</kbd>. 
 >
 > So, in case you're wondering, the answer is "yes" :smile:. You could have:
 > - created the the `projects` directory yourself with the `mkdir projects` command, where **`mkdir`** stands for '**make directory**';
-> - stepped into it with the `cd projects` command, where **`cd`** stands for '**change directory**'.
+> - stepped into it with the `cd projects` command, where **`cd`** stands for '**change directory**'.  
 >   (also, `cd ..` steps out the current directory)
 > - Cloned your repo with a slightly shorter command from within the `projects` directory.
 >
