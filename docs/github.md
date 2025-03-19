@@ -34,7 +34,7 @@ The **'workspace directory/repository'** is where you will place everything you 
 
 2. Initialize with a `README`.
 
-3. Add a Python `.gitignore`. This file does exactly what it sounds like - it tells **'Git'** which files to ignore when transfering files between your computer and **'GitHub'**.
+3. Add a Python `.gitignore`. This file does exactly what it sounds like - it tells **'Git'** which files to ignore when transferring files between your computer and **'GitHub'**.
 
 <div style="text-align: center;">
   <img src="https://user-images.githubusercontent.com/19359518/112880653-9ef76280-90c2-11eb-8768-00b2153756d5.png" alt='Finder' width="75%">
@@ -78,7 +78,7 @@ You'll be asked for your 'GitHub' username. Type it and press <kbd>Enter</kbd>. 
 > (If you don't know what SSH keys are, just ignore this note.)
 
 > 📝 **Informative section**:  
-> (You don't need to run the commands in this _informative section_. They're just here for you to start understanding what's going on with all these `/` stuff.)
+> (You don't need to run the commands in this _informative section_. They're just here for you to start understanding what's going on with all these `/` symbols.)
 >
 > So, in case you're wondering, the answer is "yes" :smile:. You could have:
 > - created the the `projects` directory yourself with the `mkdir projects` command, where **`mkdir`** stands for '**make directory**';
