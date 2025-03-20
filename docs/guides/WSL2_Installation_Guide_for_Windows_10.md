@@ -1,43 +1,45 @@
-# Windows Subsystem for Linux Installation Guide for Windows 10
+# Windows Subsystem for Linux Installation Guide for Windows 10/11
 
 ## 1. Make sure that Windows is up to date
 
-<span id="step-1_1" style="color: black;">&nbsp; 1.</span> Type `updates` in your **'Windows search bar'** to open the **'Windows search filter'**:
+1. <span id="step-1_1"></span> Type `updates` in your **'Windows search bar'** to open the **'Windows search filter'**:
 
-![alt text](media/windows_search_bar.png)
+    ![alt text](media/windows_search_bar.png)
 
-2. Click **'Check for Updates'** in the **'Windows search filter'**:
+1. Click **'Check for Updates'** in the **'Windows search filter'**:
 
-<div style="text-align: center;">
-  <img src='media/windows_check_for_updates.png' alt='Sample learning unit' />
-</div>
+    <div style="text-align: center;">
+      <img src='media/windows_check_for_updates.png' alt='Sample learning unit' />
+    </div>
 
 1. Download and install any updates that appear in the **'Windows Update'** menu (shown below):
 
-<div style="text-align: center;">
-  <img src='media/windows_update.png' alt='Sample learning unit' />
-</div>
+    <div style="text-align: center;">
+      <img src='media/windows_update.png' alt='Sample learning unit' />
+    </div>
 
-After you're done installing those updates, please check which **'OS build'** of Windows 10 you are running using the following steps:
+    After you're done installing those updates, please check which **'OS build'** of Windows 10 you are running using the following steps:
 
-1. Type `about` in your **'Windows search bar'** to open the **'Windows search filter'**.
+    > 📝 **Note:** Windows 11 users may skip the following steps and proceed to [section 2](#2-install-the-windows-subsystem-for-linux-wsl-2).
 
-2. Click **'About your PC (System settings)'**:
+2. Type `about` in your **'Windows search bar'** to open the **'Windows search filter'**.
 
-<div style="text-align: center;">
-  <img src='media/windows_about_your_pc.png' alt='Sample learning unit' />
-</div>
+3. Click **'About your PC (System settings)'**:
 
-1. Check **'OS build'** under **'Windows specifications'**:
+    <div style="text-align: center;">
+      <img src='media/windows_about_your_pc.png' alt='Sample learning unit' />
+    </div>
 
-<div style="text-align: center;">
-  <img src='media/windows_specifications.png' alt='Sample learning unit' />
-</div>
+4. Check **'OS build'** under **'Windows specifications'**:
 
-1. If your **'OS build'** number is at least `19041.x` proceed to [section 2](#2-install-the-windows-subsystem-for-linux-wsl-2) (_Install the Windows Subsystem for Linux_).
+    <div style="text-align: center;">
+      <img src='media/windows_specifications.png' alt='Sample learning unit' />
+    </div>
+
+5. If your **'OS build'** number is at least `19041.x` proceed to [section 2](#2-install-the-windows-subsystem-for-linux-wsl-2) (_Install the Windows Subsystem for Linux_).
     > The 'x' means any number
 
-2. If your **'OS build'** number is smaller than `19041.x`, then please keep coming back to **'Windows Update'** (previous **[step 1.](#step-1_1)**) and installing updates until you have at least **'OS build'** `19041.x`. Then you may proceed with this guide.
+6. If your **'OS build'** number is smaller than `19041.x`, then please keep coming back to **'Windows Update'** (previous **[step 1.](#step-1_1)**) and installing updates until you have at least **'OS build'** `19041.x`. Then you may proceed with this guide.
 
     > 📝 **Note:** For additional details about your system's information see _[Find Information About Your Windows Device](https://support.microsoft.com/en-us/windows/find-information-about-your-windows-device-a66d52c8-3323-44fd-8f34-a9497bb935e1)_.
 
@@ -54,43 +56,43 @@ Following, you have two possible ways of doing this (approaches 1 and 2). Use th
 
 1. Type `turn` in your **'Windows search bar'** to open the **'Windows search filter'**.
 
-2. Click **'Turn Windows features on or off'** in the **'Windows search filter'**:
+1. Click **'Turn Windows features on or off'** in the **'Windows search filter'**:
 
-<div style="text-align: center;">
-  <img src='media/windows_turn_windows_features_on_or_off.png' alt='Sample learning unit' />
-</div>
+    <div style="text-align: center;">
+      <img src='media/windows_turn_windows_features_on_or_off.png' alt='Sample learning unit' />
+    </div>
 
 1. In the **'Windows Features'** menu, activate the required checkboxes, indicated below:
 
-<div style="text-align: center;">
-  <img src='media/windows_features.png' alt='Sample learning unit' />
-</div>
+    <div style="text-align: center;">
+      <img src='media/windows_features.png' alt='Sample learning unit' />
+    </div>
 
 1. Click <kbd>OK</kbd> to finish.
 
-2. Restart your computer if asked to.
+1. Restart your computer if asked to.
 
 ### Approach 2: Using the Windows PowerShell
 
-<a id="step-2_2_1" style="color: black;">&nbsp; 1.</a> Open **'PowerShell'** as Administrator by typing `powershell` in your **'Windows search bar'**, and then clicking **'Run as Administrator'** in the **'Windows Search filter'** under **'Windows PowerShell (App)'**
+1. <span id="step-2_2_1"></span>Open **'PowerShell'** as Administrator by typing `powershell` in your **'Windows search bar'**, and then clicking **'Run as Administrator'** in the **'Windows Search filter'** under **'Windows PowerShell (App)'**
 
-<div style="text-align: center;">
-  <img src='media/windows_powershell.png' alt='Sample learning unit' />
-</div>
+    <div style="text-align: center;">
+      <img src='media/windows_powershell.png' alt='Sample learning unit' />
+    </div>
 
 1. Paste the following command in **'PowerShell'**:
 
-```powershell
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux,VirtualMachinePlatform
-```
+    ```powershell
+    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux,VirtualMachinePlatform
+    ```
 
-<div style="text-align: center;">
-  <img src='media/powershell_turn_on_wsl_and_virtualization.png' alt='Sample learning unit' />
-</div>
+    <div style="text-align: center;">
+      <img src='media/powershell_turn_on_wsl_and_virtualization.png' alt='Sample learning unit' />
+    </div>
 
-1. Run it by pressing <kbd>enter</kbd>.
+1. Run it by pressing <kbd>Enter</kbd>.
 
-2. Restart your computer if asked to.
+1. Restart your computer if asked to.
 
 ## 3. Install Ubuntu
 
@@ -118,7 +120,7 @@ Open this link to the [Microsoft Store](https://apps.microsoft.com/detail/9nz3kl
         <img src='media/windows_search_bar_ubuntu.png' alt='Sample learning unit' />
       </div>
 
-2. The first time the newly installed **'Ubuntu'** runs, a **'console'** window will open.
+1. The first time the newly installed **'Ubuntu'** runs, a **'console'** window will open.
 
       - If you get this error:
 
@@ -127,7 +129,7 @@ Open this link to the [Microsoft Store](https://apps.microsoft.com/detail/9nz3kl
         </div>
 
         Go to [Download the Linux kernel update package](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package), download the **'WSL 2 Linux kernel update package for x64 machines'** under **'1. Download the latest package:'** and install it.  
-        Then, go back to the **'console'** and press any key to continue. If necessary, launch **'Ubuntu'** again using one of the methods described in step 1.
+        Then, go back to the **'console'** and press any key to continue. If necessary, launch **'Ubuntu'** again using [this method](#open-ubuntu), described in the previous step 1.
 
       - If you don't get the previous error, you're good to go.
 
@@ -159,21 +161,21 @@ When you open a new **'Ubuntu'** instance, you won't be prompted for your passwo
 
 1. Close the **'Ubuntu'** console
 
-2. Open the **'PowerShell'** (if it's not already opened), and run the command:
+1. Open the **'PowerShell'** (if it's not already opened), and run the command:
 
-   ```powershell
-   wsl --status
-   ```
+    ```powershell
+    wsl --status
+    ```
 
-    > 📝 **Note:** To open the **'PowerShell'** check [step 1.](#step-2_2_1) under _Approach 2: Using the Windows PowerShell_.
+      > 📝 **Note:** To open the **'PowerShell'** check [step 1.](#step-2_2_1) under _Approach 2: Using the Windows PowerShell_.
 
-   You should get an output similar to:
+    You should get an output similar to:
 
-   <div style="text-align: center;">
-     <img src="media/wsl-status.png" alt="Alt text" />
-   </div>
+    <div style="text-align: center;">
+      <img src="media/wsl-status.png" alt="Alt text" />
+    </div>
 
-3. Check the first line of the output
+1. Check the first line of the output
 
    - If `Default Distribution` is `Ubuntu 24.04` move on to the next step (4.)
 
@@ -183,7 +185,7 @@ When you open a new **'Ubuntu'** instance, you won't be prompted for your passwo
      wsl --set-default Ubuntu-24.04
      ```
 
-4. Check the second line of the output
+1. Check the second line of the output
 
    - If `Default Version` is `2` you're good to go
 
@@ -220,15 +222,15 @@ When you open a new **'Ubuntu'** instance, you won't be prompted for your passwo
 
 1. Whenever you want to use **'WSL'**, just type **'Ubuntu'** in your **'Windows search bar'** and open it in the **'Windows search filter'** (as previously stated):
 
-   <div style="text-align: center;">
-     <img src="media/windows_search_bar_ubuntu.png" alt="Alt text" />
-   </div>
+    <div style="text-align: center;">
+      <img src="media/windows_search_bar_ubuntu.png" alt="Alt text" />
+    </div>
 
-2. Then a **'terminal'** window will open that allows you to interact with **'Ubuntu'**. The beginning of the line shows your Ubuntu username, `cmm` in this example. If you don't see your Ubuntu username, but the line begins with `root`, you forgot to set up the username when installing Ubuntu. The easiest solution is to reinstall Ubuntu.
+1. Then a **'terminal'** window will open that allows you to interact with **'Ubuntu'**. The beginning of the line shows your Ubuntu username, `cmm` in this example. If you don't see your Ubuntu username, but the line begins with `root`, you forgot to set up the username when installing Ubuntu. The easiest solution is to reinstall Ubuntu.
 
-   <div style="text-align: center;">
-     <img src="media/ubuntu_projects_folder.png" alt="Alt text" />
-   </div>
+    <div style="text-align: center;">
+      <img src="media/ubuntu_projects_folder.png" alt="Alt text" />
+    </div>
 
 ## 8. Enable copy and paste keyboard shortcuts
 
@@ -311,7 +313,7 @@ Windows Explorer should pop up now:
   <img src='media/Linux_Ubuntu_icons_in_Windows_Explorer.png' alt='Sample learning unit' width="15%"/>
 </div>
 
-> 📝 If your Navigation Pane is not visible in Windows Explorer, check _View_ $\rarr$ _Navigation Pane_
+> 📝 If your Navigation Pane is not visible in Windows Explorer, check _View_ $\rightarrow$ _Navigation Pane_
 
 ## 11. Final thoughts
 
@@ -329,10 +331,10 @@ _[Microsoft's CEO, Jun 2001](https://www.theregister.com/2001/06/02/ballmer_linu
 _[Microsoft (19 contributors), Nov 2023](https://learn.microsoft.com/en-us/windows/wsl/about#microsoft-loves-linux)_ [^3]
 </div>
 
-That's it! Time to continue with [step 2](../../WINDOWS.md#step-2) of _Set-up instructions for Windows 10/11_.
+That's it! Time to continue with [step 2 of _Set-up instructions for Windows 10/11_](../WINDOWS.md#step-2).
 
-### References
+## 11. References
 
-[^1]: Various contributors - "**_[GNU/Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)_**". [Wikipedia](https://www.wikipedia.org/), [2025].  
+[^1]: Various contributors - "**_[GNU/Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)_**". [Wikipedia](https://www.wikipedia.org/), (2025).  
 [^2]: Thomas C Greene - "**_[Ballmer: 'Linux is a cancer'](https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/)_**". [The Register](https://www.theregister.com/), (2001).
 [^3]: Various contributors (19) - "**_[What is the Windows Subsystem for Linux?](https://learn.microsoft.com/en-us/windows/wsl/about)_**". [learn.microsoft.com](https://learn.microsoft.com/), (2023).

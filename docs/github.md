@@ -86,7 +86,7 @@ You'll be asked for your 'GitHub' username. Type it and press <kbd>Enter</kbd>. 
 >   (also, `cd ..` steps out the current directory)
 > - Cloned your repo with a slightly shorter command from within the `projects` directory.
 >
-> Nonetheless we're tacking a less error-prone approach, so you don't get stuck unnecessarily by accidentally making a wrong move, which by the way, happens all the time when we're just getting started in a new environment.
+> Nonetheless we're taking a less error-prone approach, so you don't get stuck unnecessarily by accidentally making a wrong move, which by the way, happens all the time when we're just getting started in a new environment.
 >
 > Don't feel intimidated by these commands. They are simply _**bash**_ - a language to communicate with your operating system.
 
