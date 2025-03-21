@@ -72,7 +72,7 @@ def submit_to_portal(slackid: str, score: float, notebook_number: int) -> None:
             "score": score,
         }
         print(data)
-        response = requests.post('https://prep-course-portal.ldsacademy.org/submissions/', json=data) 
+        response = requests.post('https://prep-course.lisbondatascience.org/submissions/', json=data) 
         print('Success!\n' if response.ok else 'Whoopsie Daisy', response.text)
     else:
         print('Fail - invalid slackid:',slackid)
