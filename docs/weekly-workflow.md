@@ -144,7 +144,7 @@ Once you've solved all the exercises, we recommend following this simple checkli
         python submit.py --notebook "Exercise notebook 1" --slackid "YOUR_SLACK_ID"
         ```
 
-      > ⚠️ **Warning:** If the submission fails, replace `python` with `python3.13` in the previous command(s). 
+      > ⚠️ **Warning:** If the submission process fails with a reference to a missing module, replace `python` with `python3.13` in the previous command(s) and try again.
 
       It can take a while for the submission to get through. If it worked out, you should get a message like this one. You will see your grade (score) and the learning unit number.
 
