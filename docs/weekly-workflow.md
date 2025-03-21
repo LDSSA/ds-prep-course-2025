@@ -124,26 +124,36 @@ Once you've solved all the exercises, we recommend following this simple checkli
     cd ~/projects/ds-prep-workspace/"Week 00"/"SLU00 - Jupyter Notebook"
     ```
 
-8. Submit the notebook to the portal:
+8. Submit the notebook to the portal, replacing `<YOUR_SLACK_ID>` with your actual Slack ID:
 
-    ```bash
-    python submit.py --notebook "Exercise notebook" --slackid "YOUR_SLACK_ID"
-    ```
+     - If the SLU has a single exercise notebook use:
 
-    With numbered Exercise notebooks, include the number like this:
-    
-    ```bash
-    python submit.py --notebook "Exercise notebook 1" --slackid "YOUR_SLACK_ID"
-    ```
+        ```bash
+        python submit.py --notebook "Exercise notebook" --slackid "<YOUR_SLACK_ID>"
+        ```
 
-    It can take a while for the submission to get through. If it worked out, you should get a message like this one. You will see your grade (score) and the learning unit number.
+      - If the SLU has multiple exercise notebooks they will be numbered, in which case you should include the number of each exercise notebook in the respective submission, like this:
+       
+        ```bash
+        python submit.py --notebook "Exercise notebook <NUMBER>" --slackid "YOUR_SLACK_ID"
+        ```
 
-    ```bash
-    20.0
-    {'learning_unit': 0, 'exercise_notebook': 1, 'slackid': 'U04ST63FC02', 'score': 20.0}
-    Success!
-    {"id":10,"created":"2023-03-26T00:40:17.603128Z", "slackid":"U04ST63FC02", "learning_unit" 0, "exercise_notebook":1, "score":20.0}
-    ```
+        Example for "Exercise notebook 1":
+
+        ```bash
+        python submit.py --notebook "Exercise notebook 1" --slackid "YOUR_SLACK_ID"
+        ```
+
+      > ⚠️ **Warning:** If the submission fails, replace `python` with `python3.13` in the previous command(s). 
+
+      It can take a while for the submission to get through. If it worked out, you should get a message like this one. You will see your grade (score) and the learning unit number.
+
+      ```bash
+      20.0
+      {'learning_unit': 0, 'exercise_notebook': 1, 'slackid': 'U04ST63FC02', 'score': 20.0}
+      Success!
+      {"id":10,"created":"2023-03-26T00:40:17.603128Z", "slackid":"U04ST63FC02", "learning_unit" 0, "exercise_notebook":1, "score":20.0}
+      ```
 
 Your submission should now be on the [portal](https://prep-course.lisbondatascience.org/). The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID. Use `Ctrl+F` to search for your Slack ID. You can then click on your Slack ID to see all your submissions.
 
@@ -177,11 +187,11 @@ You'll be asked for your **'Git'** username and password - enter your **'token'*
 
 As much as we try and have processes in place to prevent errors and bugs in the learning units, some make it through to you.
 
-If the problem is **not in the 'exercise notebook'** you can just pull the new version from the `ds-prep-course-2025` repo and replace the file in your `ds-prep-workspace` (steps 1 and 2 from [section 1.1](#11-get-the-learning-materials)). Make sure to replace **just the new file** and not overwrite any work you already did in the exercise notebook.
+If the problem is **not in the 'Exercise notebook'** you can just pull the new version from the `ds-prep-course-2025` repo and replace the file in your `ds-prep-workspace` (steps 1 and 2 from [section 1.1](#11-get-the-learning-materials)). Make sure to replace **just the new file** and not overwrite any work you already did in the exercise notebook.
 
-If the correction is in the **'exercise notebook'**, however, **you can't just replace the file because your work is there and you'll lose it**!
+If the correction is in the **'Exercise notebook'**, however, **you can't just replace the file because your work is there and you'll lose it**!
 
-When a new version of the **'exercise notebook'** is released (and announced) you will have to copy the work you already did to the new version of the notebook:
+When a new version of the **'Exercise notebook'** is released (and announced) you will have to copy the work you already did to the new version of the notebook:
 
 1. Rename the old exercise notebook;
 1. Copy the new exercise notebook over;
