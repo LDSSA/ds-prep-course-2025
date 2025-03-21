@@ -110,9 +110,7 @@ Once you've solved all the exercises, we recommend following this simple checkli
 
 
 
-6.  Get your Slack ID (read [this](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) if you don't know where to find it) and submit the notebook to the portal. **The virtual environment has to be activated and you have be in the learning unit directory!**
-
-<!-- [portal](https://prep-course-portal.ldsacademy.org/) -->
+6.  Get your Slack ID (read [this](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) if you don't know where to find it) and submit the notebook to the [portal](https://prep-course.lisbondatascience.org/). **The virtual environment has to be activated and you have be in the learning unit directory!**
 
 7. Make sure that you are in the correct SLU directory:
 
@@ -147,9 +145,7 @@ Once you've solved all the exercises, we recommend following this simple checkli
     {"id":10,"created":"2023-03-26T00:40:17.603128Z", "slackid":"U04ST63FC02", "learning_unit" 0, "exercise_notebook":1, "score":20.0}
     ```
 
-Your submission should now be on the portal. The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID. Use `Ctrl+F` to search for your Slack ID. You can then click on your Slack ID to see all your submissions.
-
-<!-- [portal](https://prep-course-portal.ldsacademy.org/) -->
+Your submission should now be on the [portal](https://prep-course.lisbondatascience.org/). The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID. Use `Ctrl+F` to search for your Slack ID. You can then click on your Slack ID to see all your submissions.
 
 **Step 4:** **'Commit'** and **'push'**
 
