@@ -59,7 +59,7 @@ And you're done! Go back to the main menu and continue with setting up Git and G
 
 # Additional information
 
-## How to the Graphical User Interface (GUI) to access the local repos
+## How to use the Graphical User Interface (GUI) to access the local repos
 
 In Finder <img src='/docs/media/finder.png' alt='Finder' width="4%" height="4%"/>, open the **'Go'** menu, choose the option **'Go to folder...'**
 
