@@ -1,0 +1,8 @@
+ipython==8.4.0          # base
+nbgrader==0.7.0         # base
+notebook==6.4.0         # base
+jupyter-client==6.1.12  # base
+click==8.1.3            # base, used for grading
+
+numpy==1.24.2           # used by some units
+matplotlib==3.6.3       # used by some units
