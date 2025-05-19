@@ -1,0 +1,24 @@
+[project]
+name = "minesweeper_game"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.11"
+description = "Implementation of the minesweeper game"
+authors = [
+    {name = "Python Student<student@python.mail>"}
+]
+dependencies = ["pygame==2.5.2", "pytest==8.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov"]
+
+[tool.setuptools]
+packages = ["minesweeper_game"]
+
+[tool.coverage.run]
+omit = [
+    "*/test*", # omit test files
+]
+
+[tool.coverage.report]
+fail_under = 80
