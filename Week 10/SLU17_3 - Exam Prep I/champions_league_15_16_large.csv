@@ -1,0 +1,126 @@
+stage,date,team_1,ft,team_2
+Group,15 Sep 2015,Paris Saint-Germain,2-0,Malmo FF
+Group,15 Sep 2015,Real Madrid CF,4-0,Shakhtar Donetsk
+Group,15 Sep 2015,VfL Wolfsburg,1-0,CSKA Moskva
+Group,15 Sep 2015,PSV Eindhoven,2-1,Manchester United FC
+Group,15 Sep 2015,SL Benfica,2-0,Astana
+Group,15 Sep 2015,Galatasaray İstanbul AŞ,0-2,Atletico Madrid
+Group,15 Sep 2015,Manchester City FC,1-2,Juventus
+Group,15 Sep 2015,Sevilla FC,3-0,Borussia Monchengladbach
+Group,16 Sep 2015,AS Roma,1-1,FC Barcelona
+Group,16 Sep 2015,Bayer 04 Leverkusen,4-1,BATE Borisov
+Group,16 Sep 2015,Dinamo Zagreb,2-1,Arsenal FC
+Group,16 Sep 2015,Olympiacos,0-3,Bayern München
+Group,16 Sep 2015,Dinamo Kiev,2-2,FC Porto
+Group,16 Sep 2015,Chelsea FC,4-0,Maccabi Tel Aviv
+Group,16 Sep 2015,Valencia CF,2-3,Zenit St. Petersburg
+Group,16 Sep 2015,KAA Gent,1-1,Olympique Lyon
+Group,29 Sep 2015,FC Barcelona,2-1,Bayer 04 Leverkusen
+Group,29 Sep 2015,BATE Borisov,3-2,AS Roma
+Group,29 Sep 2015,Bayern München,5-0,Dinamo Zagreb
+Group,29 Sep 2015,Arsenal FC,2-3,Olympiacos
+Group,29 Sep 2015,FC Porto,2-1,Chelsea FC
+Group,29 Sep 2015,Maccabi Tel Aviv,0-2,Dinamo Kiev
+Group,29 Sep 2015,Zenit St. Petersburg,2-1,KAA Gent
+Group,29 Sep 2015,Olympique Lyon,0-1,Valencia CF
+Group,30 Sep 2015,Malmo FF,0-2,Real Madrid CF
+Group,30 Sep 2015,Shakhtar Donetsk,0-3,Paris Saint-Germain
+Group,30 Sep 2015,CSKA Moskva,3-2,PSV Eindhoven
+Group,30 Sep 2015,Manchester United FC,2-1,VfL Wolfsburg
+Group,30 Sep 2015,Atletico Madrid,1-2,SL Benfica
+Group,30 Sep 2015,Astana,2-2,Galatasaray İstanbul AŞ
+Group,30 Sep 2015,Juventus,2-0,Sevilla FC
+Group,30 Sep 2015,Borussia Monchengladbach,1-2,Manchester City FC
+Group,20 Oct 2015,Bayer 04 Leverkusen,4-4,AS Roma
+Group,20 Oct 2015,BATE Borisov,0-2,FC Barcelona
+Group,20 Oct 2015,Arsenal FC,2-0,Bayern München
+Group,20 Oct 2015,Dinamo Zagreb,0-1,Olympiacos
+Group,20 Oct 2015,Dinamo Kiev,0-0,Chelsea FC
+Group,20 Oct 2015,FC Porto,2-0,Maccabi Tel Aviv
+Group,20 Oct 2015,Zenit St. Petersburg,3-1,Olympique Lyon
+Group,20 Oct 2015,Valencia CF,2-1,KAA Gent
+Group,21 Oct 2015,Paris Saint-Germain,0-0,Real Madrid CF
+Group,21 Oct 2015,Malmo FF,1-0,Shakhtar Donetsk
+Group,21 Oct 2015,CSKA Moskva,1-1,Manchester United FC
+Group,21 Oct 2015,VfL Wolfsburg,2-0,PSV Eindhoven
+Group,21 Oct 2015,Galatasaray İstanbul AŞ,2-1,SL Benfica
+Group,21 Oct 2015,Atletico Madrid,4-0,Astana
+Group,21 Oct 2015,Manchester City FC,2-1,Sevilla FC
+Group,21 Oct 2015,Juventus,0-0,Borussia Monchengladbach
+Group,3 Nov 2015,Real Madrid CF,1-0,Paris Saint-Germain
+Group,3 Nov 2015,Shakhtar Donetsk,4-0,Malmo FF
+Group,3 Nov 2015,Manchester United FC,1-0,CSKA Moskva
+Group,3 Nov 2015,PSV Eindhoven,2-0,VfL Wolfsburg
+Group,3 Nov 2015,SL Benfica,2-1,Galatasaray İstanbul AŞ
+Group,3 Nov 2015,Astana,0-0,Atletico Madrid
+Group,3 Nov 2015,Sevilla FC,1-3,Manchester City FC
+Group,3 Nov 2015,Borussia Monchengladbach,1-1,Juventus
+Group,4 Nov 2015,FC Barcelona,3-0,BATE Borisov
+Group,4 Nov 2015,AS Roma,3-2,Bayer 04 Leverkusen
+Group,4 Nov 2015,Bayern München,5-1,Arsenal FC
+Group,4 Nov 2015,Olympiacos,2-1,Dinamo Zagreb
+Group,4 Nov 2015,Maccabi Tel Aviv,1-3,FC Porto
+Group,4 Nov 2015,Chelsea FC,2-1,Dinamo Kiev
+Group,4 Nov 2015,KAA Gent,1-0,Valencia CF
+Group,4 Nov 2015,Olympique Lyon,0-2,Zenit St. Petersburg
+Group,24 Nov 2015,BATE Borisov,1-1,Bayer 04 Leverkusen
+Group,24 Nov 2015,FC Barcelona,6-1,AS Roma
+Group,24 Nov 2015,Arsenal FC,3-0,Dinamo Zagreb
+Group,24 Nov 2015,Bayern München,4-0,Olympiacos
+Group,24 Nov 2015,FC Porto,0-2,Dinamo Kiev
+Group,24 Nov 2015,Maccabi Tel Aviv,0-4,Chelsea FC
+Group,24 Nov 2015,Olympique Lyon,1-2,KAA Gent
+Group,24 Nov 2015,Zenit St. Petersburg,2-0,Valencia CF
+Group,25 Nov 2015,Malmo FF,0-5,Paris Saint-Germain
+Group,25 Nov 2015,Shakhtar Donetsk,3-4,Real Madrid CF
+Group,25 Nov 2015,CSKA Moskva,0-2,VfL Wolfsburg
+Group,25 Nov 2015,Manchester United FC,0-0,PSV Eindhoven
+Group,25 Nov 2015,Astana,2-2,SL Benfica
+Group,25 Nov 2015,Atletico Madrid,2-0,Galatasaray İstanbul AŞ
+Group,25 Nov 2015,Juventus,1-0,Manchester City FC
+Group,25 Nov 2015,Borussia Monchengladbach,4-2,Sevilla FC
+Group,8 Dec 2015,Real Madrid CF,8-0,Malmo FF
+Group,8 Dec 2015,Paris Saint-Germain,2-0,Shakhtar Donetsk
+Group,8 Dec 2015,PSV Eindhoven,2-1,CSKA Moskva
+Group,8 Dec 2015,VfL Wolfsburg,3-2,Manchester United FC
+Group,8 Dec 2015,SL Benfica,1-2,Atletico Madrid
+Group,8 Dec 2015,Galatasaray İstanbul AŞ,1-1,Astana
+Group,8 Dec 2015,Sevilla FC,1-0,Juventus
+Group,8 Dec 2015,Manchester City FC,4-2,Borussia Monchengladbach
+Group,9 Dec 2015,Bayer 04 Leverkusen,1-1,FC Barcelona
+Group,9 Dec 2015,AS Roma,0-0,BATE Borisov
+Group,9 Dec 2015,Olympiacos,0-3,Arsenal FC
+Group,9 Dec 2015,Dinamo Zagreb,0-2,Bayern München
+Group,9 Dec 2015,Dinamo Kiev,1-0,Maccabi Tel Aviv
+Group,9 Dec 2015,Chelsea FC,2-0,FC Porto
+Group,9 Dec 2015,KAA Gent,2-1,Zenit St. Petersburg
+Group,9 Dec 2015,Valencia CF,0-2,Olympique Lyon
+Knockout,16 Feb 2016,Paris Saint-Germain,2-1,Chelsea FC
+Knockout,16 Feb 2016,SL Benfica,1-0,Zenit St. Petersburg
+Knockout,17 Feb 2016,KAA Gent,2-3,VfL Wolfsburg
+Knockout,17 Feb 2016,AS Roma,0-2,Real Madrid CF
+Knockout,23 Feb 2016,Arsenal FC,0-2,FC Barcelona
+Knockout,23 Feb 2016,Juventus,2-2,Bayern München
+Knockout,24 Feb 2016,PSV Eindhoven,0-0,Atletico Madrid
+Knockout,24 Feb 2016,Dinamo Kiev,1-3,Manchester City FC
+Knockout,8 Mar 2016,VfL Wolfsburg,1-0,KAA Gent
+Knockout,8 Mar 2016,Real Madrid CF,2-0,AS Roma
+Knockout,9 Mar 2016,Chelsea FC,1-2,Paris Saint-Germain
+Knockout,9 Mar 2016,Zenit St. Petersburg,1-2,SL Benfica
+Knockout,15 Mar 2016,Atletico Madrid,0-0,PSV Eindhoven
+Knockout,15 Mar 2016,Manchester City FC,0-0,Dinamo Kiev
+Knockout,16 Mar 2016,Bayern München,2-2,Juventus
+Knockout,16 Mar 2016,FC Barcelona,3-1,Arsenal FC
+Knockout,5 Apr 2016,FC Barcelona,2-1,Atletico Madrid
+Knockout,5 Apr 2016,Bayern München,1-0,SL Benfica
+Knockout,6 Apr 2016,Paris Saint-Germain,2-2,Manchester City FC
+Knockout,6 Apr 2016,VfL Wolfsburg,2-0,Real Madrid CF
+Knockout,12 Apr 2016,Real Madrid CF,3-0,VfL Wolfsburg
+Knockout,12 Apr 2016,Manchester City FC,1-0,Paris Saint-Germain
+Knockout,13 Apr 2016,Atletico Madrid,2-0,FC Barcelona
+Knockout,13 Apr 2016,SL Benfica,2-2,Bayern München
+Knockout,26 Apr 2016,Manchester City FC,0-0,Real Madrid CF
+Knockout,27 Apr 2016,Atletico Madrid,1-0,Bayern München
+Knockout,3 May 2016,Bayern München,2-1,Atletico Madrid
+Knockout,4 May 2016,Real Madrid CF,1-0,Manchester City FC
+Knockout,28 May 2016,Real Madrid CF,1-1,Atletico Madrid
